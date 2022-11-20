@@ -1,0 +1,237 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:"Josefin  Sans" sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+html{
+    background-image: linear-gradient(45deg, black, rgb(0, 3, 0), rgb(1, 1, 7));
+}
+#icon{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: 0;
+    top: 100px;
+    border-radius: 50%;
+}
+#icon img{
+    width: 100%;
+    border-radius: 50%;
+}
+.Iam{
+    width: 100%;
+    background-color:black;
+    background-size: cover;
+    background-position: center;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding-top: 45px;
+    flex-grow: 2;
+    justify-content: space-around;
+
+}
+nav .logo{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: #f9004d;
+}
+
+ul{
+    white-space:nowrap;
+    
+
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 2%;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+a:hover{
+    color: #f9004d;
+    transition: .4s;
+    
+}
+.press{
+    display: inline-block;
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: transform .4s;
+    float: right;
+}
+
+.press:hover{
+    transform: scale(1.2);
+}
+
+.whatIam{
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 8em;
+}
+.pic{
+    position: absolute;
+    top: 40px;
+    left: 65%;
+    z-index: 1;
+}
+section{
+    height: 500px;
+}
+.pic img{
+    width: 100%;
+}
+form{
+    
+    display: flex;
+}
+.email form input:last-child{
+    width: 25%;
+    margin: 0%;
+    border: none;
+    border-radius: 2px;
+}
+.email form input:first-child{
+    width: 75%;
+    margin: 0%;
+    border: solid 1px blue;
+}
+form div{
+    display:inline-block;
+}
+.pic{
+    width: 200px;
+    position: absolute;
+}
+h1,h3,h4,h5{
+    padding: 5px;
+}
+h3{
+    color:#e97097;
+}
+#about{
+    display: flex;
+    width: 75%;
+    margin:0px auto;
+    
+    z-index: 3; 
+}
+#laptop{
+    width: 50%;
+}
+#laptop img{
+    width: 100%;
+}
+#content{
+    width: 50%;
+    padding: 0 2em;
+    padding-top: 5em;
+}
+button{
+  background-color: #f9004d;
+  border: none;
+  padding: 1.1em;
+  border-radius: 25%;
+  margin-top: 2em;
+}
+button:hover{
+    transform: scale(1.2);
+    color: white;
+}
+button a{
+    text-decoration: none;
+    
+}
+button a:hover{
+    color:white;
+}
+#skills{
+    display: inline-table;
+    z-index: 10;
+    width: 50%;
+    padding: 10px;
+}
+#skills img{
+    width:50px;
+    margin: 2em;
+}
+#tools{
+    width:50%;
+    padding-top: 10%;
+
+}
+#skills-wraper{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 5em;
+    
+}
+#tools h1{
+    color:#f9004d
+}
+#service{
+    display: flex;
+    
+    justify-content: space-around;
+    
+}
+#service div{
+    width:25%;
+    background-color: rgba(43, 41, 41, .5);
+    text-align: center;
+    border-radius: 0,5em;
+    padding:25px ;
+    box-shadow:inset 0.04em 0.04em 0.4em darkgrey;
+
+}
+#cards{
+    width: 75%;
+    margin: 10% auto;
+    
+}
+#cards h1,h2{
+    text-align: center;
+
+
+}
+#cards h1{
+    color:#f9004d;
+}
+#service h5{
+    font-weight: bolder;
+    font-size: medium;
+
+}
+#hire button{
+    display: block;
+    margin: 0 auto;
+}
+#hire p,button{
+    text-align: center;
+}
+#hire p{
+    margin-bottom:10px;
+}
