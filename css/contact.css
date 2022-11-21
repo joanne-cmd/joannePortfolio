@@ -54,3 +54,14 @@ input[type="submit"] {
 input[type="submit"]:hover{
     transform: scale(1.2);
 }
+#right-wrapper li a img :hover{
+    transform: scale(1.2);
+}
+.jojo{
+    width: 100%;
+    margin: 0% auto;
+    margin-top: 50px;
+    padding: 15px;
+    padding-top: 50px;
+    
+}
